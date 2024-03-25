@@ -6,19 +6,16 @@ import com.amazonaws.services.s3.model.GeneratePresignedUrlRequest;
 import com.amazonaws.services.s3.model.S3Object;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
-
+@RestController
 public class Soratra {
-    /*
+
     private final AmazonS3 s3Client = AmazonS3ClientBuilder.defaultClient();
     // Bucket name
     private final String bucketName = "preprod-bucket-poja-soratra-std22029-bucket-1zagkz3vfuqr";
@@ -64,6 +61,5 @@ public class Soratra {
 
         return ResponseEntity.ok(response);
 }
-     */
 
 }
