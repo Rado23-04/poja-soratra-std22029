@@ -18,6 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Soratra {
+    /*
     private final AmazonS3 s3Client = AmazonS3ClientBuilder.defaultClient();
     // Bucket name
     private final String bucketName = "preprod-bucket-poja-soratra-std22029-bucket-1zagkz3vfuqr";
@@ -63,4 +64,6 @@ public class Soratra {
 
         return ResponseEntity.ok(response);
 }
+     */
+
 }
